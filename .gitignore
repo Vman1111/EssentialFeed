@@ -5,6 +5,7 @@
 ## Build generated
 build/
 DerivedData/
+xcshareddata/
 
 # OS-specific files
 .DS_Store
