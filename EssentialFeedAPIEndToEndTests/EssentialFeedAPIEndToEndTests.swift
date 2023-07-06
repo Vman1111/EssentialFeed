@@ -15,6 +15,7 @@ class EssentialFeedAPIEndToEndTests: XCTestCase {
         switch getFeedResult() {
         case let .success(items)?:
             XCTAssertEqual(items.count, 8, "Expected 8 items in the test account feed")
+            
             XCTAssertEqual(items[0], expectedItem(at: 0))
             XCTAssertEqual(items[1], expectedItem(at: 1))
             XCTAssertEqual(items[2], expectedItem(at: 2))
