@@ -1,5 +1,5 @@
 //
-//  LoadFerdFromRemoteUseCaseTests.swift
+//  LoadFeedFromRemoteUseCaseTests.swift
 //  EssentialFeedTests
 //
 //  Created by Vytautas Sapranavicius on 25/05/2023.
@@ -8,7 +8,7 @@
 import XCTest
 import EssentialFeed
 
-final class LoadFerdFromRemoteUseCaseTests: XCTestCase {
+final class LoadFeedFromRemoteUseCaseTests: XCTestCase {
 
     func test_init_doesNotRequestDataFromUrl() {
         let (_, client) = makeSUT()
