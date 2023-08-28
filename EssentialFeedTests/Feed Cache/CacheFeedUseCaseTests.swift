@@ -28,7 +28,7 @@ class FeedStore {
         deleteCachedFeedCallCount += 1
     }
     
-    func completionDeletion(with error: Error, at index: Int = 0) {
+    func completeDeletion(with error: Error, at index: Int = 0) {
         
     }
 }
@@ -56,7 +56,7 @@ final class CacheFeedUseCaseTests: XCTestCase {
         let deletionError = anyNSError()
 
         sut.save(items)
-        store.completionDeletion(with: deletionError)
+        store.completeDeletion(with: deletionError)
 
         XCTAssertEqual(store.insertCallCount, 0)
     }
