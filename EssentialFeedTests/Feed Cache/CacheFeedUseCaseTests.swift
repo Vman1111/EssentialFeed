@@ -9,17 +9,23 @@ import XCTest
 import EssentialFeed
 
 class LocalFeedLoader {
+    private let store: FeedStore
+    
     init(store: FeedStore) {
-
+        self.store = store
     }
 
     func save(_ items: [FeedItem]) {
-        
+        store.deleteCachedFeed()
     }
 }
 
 class FeedStore {
     var deleteCachedFeedCallCount = 0
+    
+    func deleteCachedFeed() {
+        deleteCachedFeedCallCount += 1
+    }
 }
 
 final class CacheFeedUseCaseTests: XCTestCase {
