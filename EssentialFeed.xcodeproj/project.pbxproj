@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8A8BFBD02AB06C940041796B /* RemoteFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8BFBCF2AB06C940041796B /* RemoteFeedItem.swift */; };
+		8A8BFBD22AB06D180041796B /* LocalFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8BFBD12AB06D180041796B /* LocalFeedItem.swift */; };
 		8AC9E4BB2A989B4000F9B363 /* CacheFeedUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC9E4BA2A989B4000F9B363 /* CacheFeedUseCaseTests.swift */; };
 		8AE5228E2A1E7A4100120F0B /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE522852A1E7A4100120F0B /* EssentialFeed.framework */; };
 		8AE5229E2A1E7CCA00120F0B /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE5229D2A1E7CCA00120F0B /* FeedItem.swift */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		8A8BFBCF2AB06C940041796B /* RemoteFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedItem.swift; sourceTree = "<group>"; };
+		8A8BFBD12AB06D180041796B /* LocalFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedItem.swift; sourceTree = "<group>"; };
 		8AC9E4BA2A989B4000F9B363 /* CacheFeedUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedUseCaseTests.swift; sourceTree = "<group>"; };
 		8AC9E4BC2A989D5500F9B363 /* EssentialFeed.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeed.xctestplan; sourceTree = "<group>"; };
 		8AE522852A1E7A4100120F0B /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -183,6 +185,7 @@
 			children = (
 				FAD9C0242A9F7C0100172FC0 /* LocalFeedLoader.swift */,
 				FAD9C0262A9F7D9300172FC0 /* FeedStore.swift */,
+				8A8BFBD12AB06D180041796B /* LocalFeedItem.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				8AE522A02A1E8E4200120F0B /* FeedLoader.swift in Sources */,
 				8A8BFBD02AB06C940041796B /* RemoteFeedItem.swift in Sources */,
 				FA94F05A2A28BBB2000C0BCC /* RemoteFeedLoader.swift in Sources */,
+				8A8BFBD22AB06D180041796B /* LocalFeedItem.swift in Sources */,
 				FAD9C0272A9F7D9300172FC0 /* FeedStore.swift in Sources */,
 				FAD9C0252A9F7C0100172FC0 /* LocalFeedLoader.swift in Sources */,
 				FA2EFE7C2A38C98F007F949B /* HTTPClient.swift in Sources */,
