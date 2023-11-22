@@ -113,6 +113,7 @@
 		FAD9C0262A9F7D9300172FC0 /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
 		FAF44A7F2B0EAFD000489CAC /* EssentialFeedCacheIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedCacheIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF44A812B0EAFD000489CAC /* EssentialFeedCacheIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedCacheIntegrationTests.swift; sourceTree = "<group>"; };
+		FAF44A8D2B0EBDD300489CAC /* XCloud.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = XCloud.xctestplan; sourceTree = "<group>"; };
 		FAF86A192AB7708A002A3023 /* ValidateFeedCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateFeedCacheUseCaseTests.swift; sourceTree = "<group>"; };
 		FAF86A1B2AB791B1002A3023 /* FeedCacheTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCacheTestHelpers.swift; sourceTree = "<group>"; };
 		FAF86A1D2AB792A4002A3023 /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
@@ -180,6 +181,7 @@
 		8AE5227B2A1E7A4100120F0B = {
 			isa = PBXGroup;
 			children = (
+				FAF44A8D2B0EBDD300489CAC /* XCloud.xctestplan */,
 				8AC9E4BC2A989D5500F9B363 /* EssentialFeed.xctestplan */,
 				FAD9C0232A9F7BE200172FC0 /* Feed Cache */,
 				8AE522872A1E7A4100120F0B /* EssentialFeed */,
@@ -804,7 +806,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A4HM6Z46PX;
+				DEVELOPMENT_TEAM = YK85C8KC5D;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sapranavicius.vytautas.EssentialFeedAPIEndToEndTests;
@@ -819,7 +821,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A4HM6Z46PX;
+				DEVELOPMENT_TEAM = YK85C8KC5D;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sapranavicius.vytautas.EssentialFeedAPIEndToEndTests;
