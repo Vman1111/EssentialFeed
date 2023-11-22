@@ -4,16 +4,16 @@
       "id" : "8FAAD889-C723-4C10-BC2A-0F246AAA06E2",
       "name" : "Test Scheme Action",
       "options" : {
-
+        "testExecutionOrdering" : "random"
       }
     }
   ],
   "defaultOptions" : {
-    "codeCoverage" : false
+    "codeCoverage" : false,
+    "testExecutionOrdering" : "random"
   },
   "testTargets" : [
     {
-      "parallelizable" : true,
       "target" : {
         "containerPath" : "container:EssentialFeed.xcodeproj",
         "identifier" : "8AE5228C2A1E7A4100120F0B",
