@@ -13,6 +13,7 @@
 		FAA11DB32B162F9000352F20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA11DB22B162F9000352F20 /* Assets.xcassets */; };
 		FAA11DB62B162F9000352F20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA11DB42B162F9000352F20 /* LaunchScreen.storyboard */; };
 		FAA11DBE2B16525100352F20 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA11DBD2B16525100352F20 /* FeedViewController.swift */; };
+		FAFEC4142B165B430071AB96 /* FeedImageViewModel+PrototypeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFEC4132B165B430071AB96 /* FeedImageViewModel+PrototypeData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FAA11DB52B162F9000352F20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA11DB72B162F9000352F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAA11DBD2B16525100352F20 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		FAFEC4132B165B430071AB96 /* FeedImageViewModel+PrototypeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedImageViewModel+PrototypeData.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				FAA11DB22B162F9000352F20 /* Assets.xcassets */,
 				FAA11DB42B162F9000352F20 /* LaunchScreen.storyboard */,
 				FAA11DB72B162F9000352F20 /* Info.plist */,
+				FAFEC4132B165B430071AB96 /* FeedImageViewModel+PrototypeData.swift */,
 				FAA11DBD2B16525100352F20 /* FeedViewController.swift */,
 			);
 			path = Prototype;
@@ -141,6 +144,7 @@
 				FAA11DAA2B162F8E00352F20 /* AppDelegate.swift in Sources */,
 				FAA11DBE2B16525100352F20 /* FeedViewController.swift in Sources */,
 				FAA11DAC2B162F8E00352F20 /* SceneDelegate.swift in Sources */,
+				FAFEC4142B165B430071AB96 /* FeedImageViewModel+PrototypeData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
