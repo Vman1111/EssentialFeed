@@ -183,7 +183,6 @@
 			children = (
 				FAF44A8D2B0EBDD300489CAC /* XCloud.xctestplan */,
 				8AC9E4BC2A989D5500F9B363 /* EssentialFeed.xctestplan */,
-				FAD9C0232A9F7BE200172FC0 /* Feed Cache */,
 				8AE522872A1E7A4100120F0B /* EssentialFeed */,
 				8AE522912A1E7A4100120F0B /* EssentialFeedTests */,
 				FA3DBF542A571DFF00A9FECA /* EssentialFeedAPIEndToEndTests */,
@@ -206,6 +205,7 @@
 		8AE522872A1E7A4100120F0B /* EssentialFeed */ = {
 			isa = PBXGroup;
 			children = (
+				FAD9C0232A9F7BE200172FC0 /* Feed Cache */,
 				8AE522A12A1E8F6400120F0B /* Feed Feature */,
 				FA94F0582A28BB85000C0BCC /* Feed API */,
 			);
