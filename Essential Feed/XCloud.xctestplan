@@ -40,13 +40,6 @@
         "identifier" : "FA3DBF522A571DFF00A9FECA",
         "name" : "EssentialFeedAPIEndToEndTests"
       }
-    },
-    {
-      "target" : {
-        "containerPath" : "container:EssentialFeed.xcodeproj",
-        "identifier" : "FAFEC4242B178B8B0071AB96",
-        "name" : "EssentialFeediOSTests"
-      }
     }
   ],
   "version" : 1
