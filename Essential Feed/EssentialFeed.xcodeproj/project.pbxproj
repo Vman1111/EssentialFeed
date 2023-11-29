@@ -131,6 +131,8 @@
 		FAFEC41F2B178B8B0071AB96 /* EssentialFeediOS.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeediOS.docc; sourceTree = "<group>"; };
 		FAFEC4252B178B8B0071AB96 /* EssentialFeediOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeediOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFEC4332B178C3F0071AB96 /* EssentialFeediOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeediOS.xctestplan; sourceTree = "<group>"; };
+		FAFEC4342B1792030071AB96 /* Xcloud_iOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Xcloud_iOS.xctestplan; sourceTree = "<group>"; };
+		FAFEC4352B1792490071AB96 /* Xcloud_macOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = Xcloud_macOS.xctestplan; path = ../Xcloud_macOS.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,8 +211,10 @@
 		8AE5227B2A1E7A4100120F0B = {
 			isa = PBXGroup;
 			children = (
+				FAFEC4342B1792030071AB96 /* Xcloud_iOS.xctestplan */,
 				FAFEC4332B178C3F0071AB96 /* EssentialFeediOS.xctestplan */,
 				FAF44A8D2B0EBDD300489CAC /* XCloud.xctestplan */,
+				FAFEC4352B1792490071AB96 /* Xcloud_macOS.xctestplan */,
 				8AC9E4BC2A989D5500F9B363 /* EssentialFeed.xctestplan */,
 				8AE522872A1E7A4100120F0B /* EssentialFeed */,
 				8AE522912A1E7A4100120F0B /* EssentialFeedTests */,
