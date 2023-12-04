@@ -55,6 +55,7 @@
 		FAF86A1C2AB791B1002A3023 /* FeedCacheTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF86A1B2AB791B1002A3023 /* FeedCacheTestHelpers.swift */; };
 		FAF86A1E2AB792A4002A3023 /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF86A1D2AB792A4002A3023 /* SharedTestHelpers.swift */; };
 		FAFDBB7C2A4E0C4200BC0D6E /* XCTTestCase+MemoryLeakTeacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDBB7B2A4E0C4200BC0D6E /* XCTTestCase+MemoryLeakTeacking.swift */; };
+		FAFFFDF32B1E7A5700DD4C82 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFFFDF22B1E7A5700DD4C82 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,6 +159,7 @@
 		FAFDBB7B2A4E0C4200BC0D6E /* XCTTestCase+MemoryLeakTeacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTTestCase+MemoryLeakTeacking.swift"; sourceTree = "<group>"; };
 		FAFEC4342B1792030071AB96 /* Xcloud_iOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Xcloud_iOS.xctestplan; sourceTree = "<group>"; };
 		FAFEC4352B1792490071AB96 /* Xcloud_macOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = Xcloud_macOS.xctestplan; path = ../Xcloud_macOS.xctestplan; sourceTree = "<group>"; };
+		FAFFFDF22B1E7A5700DD4C82 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -368,6 +370,7 @@
 			isa = PBXGroup;
 			children = (
 				FAA9DECB2B1C70D20001B6DA /* EssentialFeediOS.h */,
+				FAFFFDF22B1E7A5700DD4C82 /* FeedViewController.swift */,
 			);
 			path = EssentialFeediOS;
 			sourceTree = "<group>";
@@ -570,6 +573,7 @@
 					};
 					FAA9DEC82B1C70D20001B6DA = {
 						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
 					};
 					FAA9DECF2B1C70D20001B6DA = {
 						CreatedOnToolsVersion = 15.0.1;
@@ -708,6 +712,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAFFFDF32B1E7A5700DD4C82 /* FeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1030,6 +1035,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1059,6 +1065,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1068,6 +1075,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1105,6 +1113,7 @@
 		FAA9DEDA2B1C70D30001B6DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1128,6 +1137,7 @@
 		FAA9DEDB2B1C70D30001B6DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
