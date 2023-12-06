@@ -56,6 +56,7 @@
 		FAF86A1E2AB792A4002A3023 /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF86A1D2AB792A4002A3023 /* SharedTestHelpers.swift */; };
 		FAFDBB7C2A4E0C4200BC0D6E /* XCTTestCase+MemoryLeakTeacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDBB7B2A4E0C4200BC0D6E /* XCTTestCase+MemoryLeakTeacking.swift */; };
 		FAFFFDF32B1E7A5700DD4C82 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFFFDF22B1E7A5700DD4C82 /* FeedViewController.swift */; };
+		FAFFFDF52B20DE2500DD4C82 /* FeedImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFFFDF42B20DE2500DD4C82 /* FeedImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,6 +161,7 @@
 		FAFEC4342B1792030071AB96 /* Xcloud_iOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Xcloud_iOS.xctestplan; sourceTree = "<group>"; };
 		FAFEC4352B1792490071AB96 /* Xcloud_macOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = Xcloud_macOS.xctestplan; path = ../Xcloud_macOS.xctestplan; sourceTree = "<group>"; };
 		FAFFFDF22B1E7A5700DD4C82 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		FAFFFDF42B20DE2500DD4C82 /* FeedImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -371,6 +373,7 @@
 			children = (
 				FAA9DECB2B1C70D20001B6DA /* EssentialFeediOS.h */,
 				FAFFFDF22B1E7A5700DD4C82 /* FeedViewController.swift */,
+				FAFFFDF42B20DE2500DD4C82 /* FeedImageCell.swift */,
 			);
 			path = EssentialFeediOS;
 			sourceTree = "<group>";
@@ -713,6 +716,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAFFFDF32B1E7A5700DD4C82 /* FeedViewController.swift in Sources */,
+				FAFFFDF52B20DE2500DD4C82 /* FeedImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
